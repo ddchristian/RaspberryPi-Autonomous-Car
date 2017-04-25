@@ -1,0 +1,11 @@
+Spark Access Token =
+
+Team Space Name(Room Name) =
+
+roomId (for team space) =
+
+Team imageURL =
+
+ReservationUser =
+
+ReservationToken =

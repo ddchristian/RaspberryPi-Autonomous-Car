@@ -1,3 +1,6 @@
+
+/*    File used to copy variables to be used to call the different Python modules    */
+
 Spark Access Token =
 
 Team Space Name(Room Name) =
@@ -6,6 +9,6 @@ roomId (for team space) =
 
 Team imageURL =
 
-ReservationUser =
+ReservationUser (choose someone in your group) =
 
-ReservationToken =
+ReservationToken (email of ReservationUser) =

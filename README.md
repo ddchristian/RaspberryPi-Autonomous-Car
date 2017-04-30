@@ -10,6 +10,9 @@ This project was conceived as a means to introduce coding, IoT sensors and cloud
 It attempts to simulate an **Autonomous Intersection Management Traffic 
 Control System** using the Raspberry Pi to simulate a sensor and Cisco Spark service to simulate a cloud based application server.
 
+![Setup Screenshot](./images/setup.png)
+**Figure 1:** *Setup of simulation environment*
+
 This specific use case was conceived from research done by University of Texas, Austin published in this [video](https://www.youtube.com/watch?v=4pbAI40dK0A).
 
 The Raspberry Pi was build with a [sensor kit][kit_id]

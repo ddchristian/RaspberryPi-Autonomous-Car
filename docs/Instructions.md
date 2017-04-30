@@ -6,15 +6,15 @@ Instruction guide for coding Autonomous Cars with Raspberry Pi and Cisco Spark
 
 - [Overview](#overview)
 - [Setup your Raspberry Pi workspace](#setup-your-raspberry-pi-workspace)
-- [Get your code from GitHub](#get-code-from-github)
-- [Test your Raspberry Pi Circuit (sensor)](#test)
-- [Your team space in Cisco Spark](#spark)
-- [Get Spark Authentication token](#token)
-- [Retrieve your roomId](#roomId)
-- [Make Spark call to isMember.py](#isMember)
-- [Post a message to your Spark Room](#postMsg)
-- [Put it all together](#together)
-- [Save your work to your Space](#save-work)
+- [Get your code from GitHub](#get-your-code-from-github)
+- [Test your Raspberry Pi Sensor](#test-your-raspberry-pi-sensor)
+- [Your team space in Cisco Spark](#your-team-space-in-cisco-spark)
+- [Get Spark Authentication token](#get-spark-authentication-token)
+- [Retrieve your roomId](#retrieve-your-roomid)
+- [Make Spark call to isMember](#make-spark-call-to-ismember)
+- [Post a message to your Spark Room](#post-a-message-to-your-spark-room)
+- [Put it all together](#put-it-all-together)
+- [Save your work to your Space](#save-your-work-to-your-space)
 - [Clean up](#cleanup)
 
 
@@ -77,7 +77,7 @@ From the Geany Editor click *`File... Open`* and open the following files in the
 
 Now we're ready to start running the code !!
 
-## Test your Raspberry Pi Circuit (sensor)
+## Test your Raspberry Pi Sensor
 
 Your Raspberry Pi has a breadboard attached to it with a circuit that acts as a Vehicle to Infrastructure (V2I) sensor. If your Raspberry Pi circuit is not completed use the diagram below to complete the circuit.
 
@@ -119,7 +119,7 @@ In order to post messages to your space we first need to retrieve your space roo
 
 Copy your token (from notes.txt) and paste into the `token = ''` field of roomId.py It should look something like:	`token = 'NjkyOTcwMjAtMTgxZi00MzRhLTk2NTUtNmMwMjk0NDQ1MDYyN2Q'`Save the file.
 From terminal run the application:
-	pi@raspberrypi:~ $ python roomId.pyThe roomId.py script prints a list of Spark Spaces that you belong to.Copy the roomId for the space you want to post to.Paste it in the notes.txt file to the field `spaceId = ''` field and save the file.## Make Spark call to isMember.py
+	pi@raspberrypi:~ $ python roomId.pyThe roomId.py script prints a list of Spark Spaces that you belong to.Copy the roomId for the space you want to post to.Paste it in the notes.txt file to the field `spaceId = ''` field and save the file.## Make Spark call to isMember
 Go to your Geany editor edit the file  `~/code/isMember.py`Copy your token (from notes.txt) and paste into the `token = ''` field of isMember.py. It should look something like:	`token = 'NjkyOTcwMjAtMTgxZi00MzRhLTk2NTUtNmMwMjk0NDQ1MDYyN2Q'`Copy your roomId (from notes.txt) into the `roomId = ''` field.It should look something like:	`roomId = 'NjkyOTcwMjAtMTgxZi00MzRhLTk2NTUtNmMwMjk0NDQ1MDYyN2Q'`From terminal run the application:
 	pi@raspberrypi:~ $ python isMember.pyThe isMember.py script prints a list of members in a specific Spark space.
 	
@@ -155,7 +155,7 @@ To simulate what a denied reservation would look like change `reservationToken` 
 
 Run `sensor.py` again
 
-## Save your work to your Space (optional)
+## Save your work to your Space
 You can follow this part if you want to save your code to review later. Run the following commands:
 
 	cd ~/code

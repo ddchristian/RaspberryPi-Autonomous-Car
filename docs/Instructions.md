@@ -15,7 +15,7 @@ Instruction guide for coding Autonomous Cars with Raspberry Pi and Cisco Spark
 - [Post a message to your Spark Room](#post-a-message-to-your-spark-room)
 - [Put it all together](#put-it-all-together)
 - [Save your work to your Space](#save-your-work-to-your-space)
-- [Clean up](#cleanup)
+- [Clean up](#clean-up)
 
 
 ## Overview

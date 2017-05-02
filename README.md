@@ -51,6 +51,7 @@ Applications here are intended to test all the component functions and call sepe
 * *postMsg.py*
 	* Called to post messages (and images) to your Spark space identified by *roomId*
 
+
 ## Application files in /final folder
 These functions tests the "sensor", "application server" and application logic as an integrated system
 
@@ -61,6 +62,8 @@ These functions tests the "sensor", "application server" and application logic a
 	* Handles the interaction with the Cisco Spark service.
 * *sensor.py*
 	* This is the main module for this project
+* *cleanUp.py*
+	* Script to save work to Spark space and clean up files from Raspberry Pi
 
 
 	

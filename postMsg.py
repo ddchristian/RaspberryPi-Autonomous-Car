@@ -44,7 +44,7 @@ print (headers)
 print ("API call is: ")
 print (call)
 print ("API url is: ")
-print (url)
+print (post_url)
 
 
 msg = raw_input('\n\n=> Enter the message you would like to post to the space.....: ')
